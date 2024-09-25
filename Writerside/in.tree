@@ -3,9 +3,10 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="Instance Name"
+                 name="Natural Language Processing"
                  start-page="starter.md">
 
     <toc-element topic="starter.md"/>
     <toc-element topic="Natural_Language_Processing.md"/>
+    <toc-element topic="Basics_of_Language_Modeling.md"/>
 </instance-profile>
