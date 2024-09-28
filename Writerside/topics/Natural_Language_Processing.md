@@ -24,7 +24,7 @@
 - 컴퓨터는 숫자만 처리가 가능해서, 자연어를 숫자 형태(벡터)로 변환해야 한다.
 - 자연어의 기본 단위는 Word이다. 문장, 단락, 문서와 같은 개념을 구축하기 위해 다른 단어들을 결합한다.
 
-![Word 분포도](word_poisition.png){ width=450 }{border-effect=line}
+![Word 분포도](./images/nlp/word_poisition.png){ width=450 }{border-effect=line}
 
 ### **변환 방법들**
 1. 정수 인코딩(Integer Encoding)
@@ -39,7 +39,7 @@ ex) motel = [0 0 0 0 1 0 0]
 
 3. Dense Word Vectors
 각 단어를 dense vector로 만들고, 유사한 맥락에서 나타나는 단어들의 벡터와 유사하도록 한다.
-![Dense Vector](dense_vector.png){ width=290 }{border-effect=line}
+![Dense Vector](./images/nlp/dense_vector.png){ width=290 }{border-effect=line}
 
 ### **Word2Vec**
 Word2vec은 Word Vector를 학습시키기 위한 프레임워크이다.
@@ -54,13 +54,13 @@ Word2vec은 Word Vector를 학습시키기 위한 프레임워크이다.
 즉, `말뭉치의 근접성(Data likelihood)`을 `word vector의 유사도(Dot Product)`와 연결한다!
 
 > 1. **Data likelihood**(사건이 일어날 확률)
->    ![likelihood1](likelihood1.png){ width=350 }{border-effect=line}
+>    ![likelihood1](./images/nlp/likelihood1.png){ width=350 }{border-effect=line}
 > 어렵게 생각할 것 없음. P()는 확률로 보면 됨. 중심 단어를 기준으로 주변 단어가 올 확률임. 그리고 윈도우 크기 만큼 loop해서 확률을 전부 곱해줌. 이 과정을 말뭉치 단어 수 만큼 반복해서 전부 곱해주면 원하는 확률.
 > 
 > 풀이
->    ![likelihood2](likelihood2.png){border-effect=line}
->    ![likelihood2](likelihood3.png){border-effect=line}
->    ![vector1](vector1.png){border-effect=line}
+>    ![likelihood2](./images/nlp/likelihood2.png){border-effect=line}
+>    ![likelihood2](./images/nlp/likelihood3.png){border-effect=line}
+>    ![vector1](./images/nlp/vector1.png){border-effect=line}
 > 
 > 2. **More details**
 > - CBOW(Continuous Bag of Words), Skip-gram 모델이 있는데 window 크기를 기준으로 CBOW는 context word로부터 center word를 예측합니다. 반면 Skip-gram은 center word로부터 context word를 예측합니다.
@@ -86,7 +86,7 @@ Word2vec은 Word Vector를 학습시키기 위한 프레임워크이다.
 > 경사하강법은 J(𝜃)(cost를 나타내는 비용)을 최소화 하는 알고리즘이다.<br>
 > 𝜃는 모델 매개변수를얘기한다. (ex. weight bias...)
 > 
-> ![image.png](image.png)
+> ![image.png](./images/image.png)
 > 
 > 매개변수를 업데이트 해주는 수식은 아래와 같다.
-> ![parameter_update_equantion](parameter_update_equantion.png)
+> ![parameter_update_equantion](./images/parameter_update_equantion.png)
