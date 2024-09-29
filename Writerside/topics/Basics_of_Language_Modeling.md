@@ -1,4 +1,4 @@
-# Language Modeling
+# Language Modeling(1)
 언어 모델링은 다음에 어떤 단어가 올지 예측하는 작업이다.
 (context가 있을 때 다음에 나오는 단어를 종합적으로 고려하여 예측)<br>
 
