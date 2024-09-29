@@ -6,7 +6,10 @@
                  name="Natural Language Processing"
                  start-page="starter.md">
 
-    <toc-element topic="starter.md"/>
     <toc-element topic="Natural_Language_Processing.md"/>
     <toc-element topic="Basics_of_Language_Modeling.md"/>
+    <toc-element topic="SeqToSeq.md"/>
+    <toc-element topic="Attention.md"/>
+    <toc-element topic="Transformer.md"/>
+    <toc-element topic="starter.md"/>
 </instance-profile>
