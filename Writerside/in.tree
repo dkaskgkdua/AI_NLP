@@ -12,5 +12,7 @@
     <toc-element topic="Attention.md"/>
     <toc-element topic="Transformer.md"/>
     <toc-element topic="Tokenization-And-Subword-Modeling.md"/>
+    <toc-element topic="Question-Answering.md"/>
+    <toc-element topic="Natural-Language-Generation.md"/>
     <toc-element topic="starter.md"/>
 </instance-profile>

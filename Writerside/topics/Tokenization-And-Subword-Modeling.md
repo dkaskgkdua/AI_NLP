@@ -1,4 +1,4 @@
-# Tokenization And Subword Modeling
+# Tokenization And Subword Modeling(3)
 Tokenization 이전까지는 word 단위로 했는데 word 단위는 약간의 오타에도 대응하기가 힘들고 모르는 word가 있을 경우 문제가 있어 subword 단위로 한다.
 그리고 모르는 단어의 경우 Unknown으로 매핑한다.
 ![tokenization.png](./images/token/tokenization.jpg)
